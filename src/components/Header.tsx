@@ -3,14 +3,18 @@ import "./Header.css";
 function Header() {
   return (
     <header className="header">
-      <div className="logo">
-        <img src="/public/images/logo.svg" alt="Logo" />
-      </div>
+      <img className="logo" src="/images/logo.svg" alt="Logo" />
 
-      <nav className="main-nav">
-        <a className="nav-link">Features</a>
-        <a className="nav-link">Team</a>
-        <a className="nav-link">Sign In</a>
+      <nav className="nav">
+        <a href="#features" className="nav-link">
+          Features
+        </a>
+        <a href="#team" className="nav-link">
+          Team
+        </a>
+        <a href="#sign_in" className="nav-link">
+          Sign In
+        </a>
       </nav>
     </header>
   );

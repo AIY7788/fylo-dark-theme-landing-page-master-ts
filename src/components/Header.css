@@ -1,0 +1,26 @@
+.header {
+  font-family: var(--font-heading);
+
+  width: 100%;
+  padding: max(2rem, 5vw);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: clamp(8rem, 14vw, 26rem);
+}
+
+.nav {
+  width: clamp(180px, 34vw, 320px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--grey);
+}
