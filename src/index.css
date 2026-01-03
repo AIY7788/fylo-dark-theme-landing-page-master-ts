@@ -1,0 +1,76 @@
+:root {
+  /* =====================
+     Colors
+  ===================== */
+
+  /* Primary */
+  --navy-850: hsl(217, 28%, 15%);
+  /* intro + email signup bg */
+  --navy-900: hsl(218, 28%, 13%);
+  /* main bg */
+  --navy-800: hsl(219, 30%, 18%);
+  /* testimonials bg */
+  --navy-950: hsl(216, 53%, 9%);
+  /* footer bg */
+
+  /* Accent */
+  --teal-200: hsl(176, 68%, 64%);
+  --cyan-500: hsl(198, 60%, 50%);
+  --red-500: hsl(0, 100%, 63%);
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 90%);
+
+  /* =====================
+     Typography
+  ===================== */
+
+  --font-body: 'Open Sans', sans-serif;
+  --font-heading: 'Raleway', sans-serif;
+
+  --font-size-body: 1.4rem;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: clamp(var(--font-size-body), 2vw, 1.8rem);
+  font-weight: var(--font-weight-regular);
+  background-color: var(--navy-800);
+}
+
+main {
+  background-color: var(--navy-900);
+}
+
+h1,
+h3 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-bold);
+  color: var(--white);
+}
+
+p {
+  color: var(--grey);
+}
+
+img {
+  width: 7rem;
+}
+
+footer {
+  background-color: var(--navy-950);
+}
