@@ -228,6 +228,7 @@
   padding: 2rem;
   border-radius: 50px;
   border: none;
+  outline: none;
   color: var(--navy-850);
 }
 
