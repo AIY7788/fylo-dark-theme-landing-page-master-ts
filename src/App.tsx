@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import ArrowIcon from "./assets/icon-arrow.svg?react";
 
 function App() {
   return (
@@ -114,7 +115,7 @@ function App() {
 
               <a className="productivity-link" href="#">
                 See how Fylo works{" "}
-                <img src="/images/icon-arrow.svg" alt="icon-arrow" />
+                <ArrowIcon className="icon-arrow" />
               </a>
             </div>
           </div>

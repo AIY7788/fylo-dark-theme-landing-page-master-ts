@@ -42,6 +42,11 @@
   border: none;
   user-select: none;
   cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.btn:hover {
+  background-color: var(--cyan-200);
 }
 
 .btn-primary {
@@ -112,10 +117,15 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  transition: .3s ease;
 }
 
-.productivity-link img {
-  width: 24px;
+.productivity-link:hover {
+  color: var(--grey);
+  border-color: var(--grey);
+}
+.productivity-link:hover .icon-arrow {
+  --icon-bg: var(--grey);
 }
 
 .testimonials {
@@ -263,8 +273,13 @@
 .footer-location {
   max-width: 400px;
   display: flex;
-  align-items: start;
+  align-items: center;
   gap: 3rem;
+}
+
+.footer-location {
+  align-items: start;
+  margin-bottom: 3rem;
 }
 
 .footer-links {
@@ -297,6 +312,12 @@
   justify-content: center;
   text-decoration: none;
   color: var(--white);
+  transition: .3s ease;
+}
+
+.social-icon:hover {
+  color: var(--teal-200);
+  border-color: var(--teal-200);
 }
 
 @media (min-width: 42rem) {

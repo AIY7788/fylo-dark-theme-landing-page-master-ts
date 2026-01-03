@@ -23,4 +23,10 @@
 .nav-link {
   text-decoration: none;
   color: var(--grey);
+  transition: .4s ease;
+}
+
+.nav-link:hover {
+  text-decoration: 1px underline var(--white);
+  color: var(--white);
 }
