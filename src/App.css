@@ -25,3 +25,16 @@
   color: var(--white);
   background-color: var(--cyan-500);
 }
+
+.error {
+  width: 100%;
+  color: var(--red-500);
+  padding: 0.4rem 2rem;
+
+}
+
+@media (min-width: 42rem) {
+  .error {
+    text-align: start;
+  }
+}
