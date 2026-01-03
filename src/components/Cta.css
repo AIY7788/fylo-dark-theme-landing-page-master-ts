@@ -1,0 +1,68 @@
+.cta {
+  text-align: center;
+  padding: 2rem;
+  position: absolute;
+  bottom: -160px;
+  left: 0;
+  right: 0;
+}
+
+.cta-box {
+  max-width: 920px;
+  background-color: var(--navy-850);
+  padding: 3rem clamp(2.8rem, 6vw, 6rem);
+  margin: 0 auto;
+}
+
+.cta-title {
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.cta-text {
+  margin-bottom: 3rem;
+}
+
+.cta-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.8rem;
+}
+
+.cta-input {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  color: var(--navy-850);
+}
+
+.cta-input::placeholder {
+  color: var(--grey);
+}
+
+.cta-button {
+  width: 100%;
+  padding: 2rem;
+}
+
+@media (min-width: 42rem) {
+
+  .cta-form {
+    flex-direction: row;
+  }
+
+  .cta-input {
+    width: fit-content;
+    flex-grow: 4;
+  }
+
+  .cta-button {
+    width: fit-content;
+    flex-grow: 1;
+  }
+
+}

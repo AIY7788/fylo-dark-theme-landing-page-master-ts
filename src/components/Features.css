@@ -1,0 +1,28 @@
+.features {
+  text-align: center;
+  padding: 2.6rem;
+}
+
+.features-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  align-items: end;
+  gap: 8rem;
+}
+
+.feature-icon {
+  margin-bottom: 3rem;
+}
+
+.feature-title {
+  font-size: clamp(1.8rem, 2vw, 2.4rem);
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 42rem) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12rem;
+  }
+}
