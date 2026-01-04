@@ -13,3 +13,7 @@
 .show-scroll-btn {
   display: block;
 }
+
+.scroll-up-btn:hover {
+  opacity: 0.6;
+}
