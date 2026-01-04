@@ -2,8 +2,8 @@ import "./Cta.css";
 import { useState } from "react";
 
 function Cta() {
-  const [email, setEmail] = useState("");
-  const [error, setError] = useState("");
+  const [email, setEmail] = useState<string>("");
+  const [error, setError] = useState<string>("");
 
   const handleOnChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
