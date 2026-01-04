@@ -7,7 +7,7 @@ function Productivity() {
       <div className="productivity-inner">
         <img
           className="productivity-illustration"
-          src="/images/illustration-stay-productive.png"
+          src="/fylo-dark-theme-landing-page-master-ts/images/illustration-stay-productive.png"
           alt="Illustration Stay Productive"
         />
 

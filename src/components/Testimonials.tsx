@@ -14,7 +14,7 @@ function Testimonials() {
           <div className="testimonial-author">
             <img
               className="author-avatar"
-              src="/images/profile-1.jpg"
+              src="/fylo-dark-theme-landing-page-master-ts/images/profile-1.jpg"
               alt="Satish Patel Avatar"
             />
             <div className="author-info">
@@ -33,7 +33,7 @@ function Testimonials() {
           <div className="testimonial-author">
             <img
               className="author-avatar"
-              src="/images/profile-2.jpg"
+              src="/fylo-dark-theme-landing-page-master-ts/images/profile-2.jpg"
               alt="Satish Patel Avatar"
             />
             <div className="author-info">
@@ -52,7 +52,7 @@ function Testimonials() {
           <div className="testimonial-author">
             <img
               className="author-avatar"
-              src="/images/profile-3.jpg"
+              src="/fylo-dark-theme-landing-page-master-ts/images/profile-3.jpg"
               alt="Satish Patel Avatar"
             />
             <div className="author-info">

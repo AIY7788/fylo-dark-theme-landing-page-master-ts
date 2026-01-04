@@ -4,7 +4,11 @@ function HeroSection() {
   return (
     <section className="hero-section">
       <div className="hero-section-inner">
-        <img className="hero-img" src="/images/illustration-intro.png" alt="" />
+        <img
+          className="hero-img"
+          src="/fylo-dark-theme-landing-page-master-ts/images/illustration-intro.png"
+          alt=""
+        />
 
         <h1 className="hero-title">
           All your files in one secure location, accessible anywhere.
