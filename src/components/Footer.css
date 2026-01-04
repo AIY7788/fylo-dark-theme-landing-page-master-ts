@@ -23,7 +23,7 @@
 }
 
 .icon-contact {
-  width: 14px;
+  flex-shrink: 0;
 }
 
 .footer-email,

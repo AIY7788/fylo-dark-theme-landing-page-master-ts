@@ -1,27 +1,29 @@
 import "./Footer.css";
+import Logo from "../assets/logo.svg?react";
+import IconLocation from "../assets/icon-location.svg?react";
+import IconPhone from "../assets/icon-phone.svg?react";
+import IconEmail from "../assets/icon-email.svg?react";
 
 function Footer() {
   return (
     <footer className="site-footer">
-      <img className="footer-logo" src="/images/logo.svg" alt="Logo" />
+      <Logo className="footer-logo" />
       <div className="footer-inner">
-        <span className="footer-location">
-          <img
-            className="icon-contact"
-            src="/images/icon-location.svg"
-            alt=""
-          />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum autem
-          tenetur porro vel rem quidem, commodi architecto fuga quos id
-          temporibus praesentium
-        </span>
+        <div className="footer-location">
+          <IconLocation className="icon-contact" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+            autem tenetur porro vel rem quidem, commodi architecto fuga quos id
+            temporibus praesentium
+          </p>
+        </div>
         <div className="footer-contact">
           <span className="footer-phone">
-            <img className="icon-contact" src="/images/icon-phone.svg" alt="" />
+            <IconPhone className="icon-contact" />
             +1-543-123-4567
           </span>
           <span className="footer-email">
-            <img className="icon-contact" src="/images/icon-email.svg" alt="" />
+            <IconEmail className="icon-contact" />
             example@fylo.com
           </span>
         </div>

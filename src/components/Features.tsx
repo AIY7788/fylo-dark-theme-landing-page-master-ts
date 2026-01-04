@@ -1,15 +1,15 @@
 import "./Features.css"
+import IconAccessAnywhere from "../assets/icon-access-anywhere.svg?react";
+import IconSecurity from "../assets/icon-security.svg?react";
+import IconCollaboration from "../assets/icon-collaboration.svg?react";
+import IconAnyFile from "../assets/icon-any-file.svg?react";
 
 function Features() {
   return (
     <section id="features" className="features">
       <div className="features-grid">
         <div className="feature-card">
-          <img
-            className="feature-icon"
-            src="/images/icon-access-anywhere.svg"
-            alt="Icon access anywhere"
-          />
+          <IconAccessAnywhere className="feature-icon" />
 
           <h3 className="feature-title">Access your files, anywhere</h3>
           <p className="feature-text">
@@ -18,11 +18,7 @@ function Features() {
           </p>
         </div>
         <div className="feature-card">
-          <img
-            className="feature-icon"
-            src="/images/icon-security.svg"
-            alt="Icon security"
-          />
+          <IconSecurity className="feature-icon" />
 
           <h3 className="feature-title">Security you can trust</h3>
           <p className="feature-text">
@@ -31,11 +27,7 @@ function Features() {
           </p>
         </div>
         <div className="feature-card">
-          <img
-            className="feature-icon"
-            src="/images/icon-collaboration.svg"
-            alt="Icon collaboration"
-          />
+          <IconCollaboration className="feature-icon" />
 
           <h3 className="feature-title">Real-time collaboration</h3>
           <p className="feature-text">
@@ -44,11 +36,8 @@ function Features() {
           </p>
         </div>
         <div className="feature-card">
-          <img
-            className="feature-icon"
-            src="/images/icon-any-file.svg"
-            alt="Icon any file"
-          />
+          <IconAnyFile className="feature-icon" />
+
           <h3 className="feature-title">Store any type of file</h3>
           <p className="feature-text">
             Whether you're sharing holidays photos or work documents, Fylo has
