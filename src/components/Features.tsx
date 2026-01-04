@@ -8,7 +8,7 @@ function Features() {
           <img
             className="feature-icon"
             src="/images/icon-access-anywhere.svg"
-            alt=""
+            alt="Icon access anywhere"
           />
 
           <h3 className="feature-title">Access your files, anywhere</h3>
@@ -21,7 +21,7 @@ function Features() {
           <img
             className="feature-icon"
             src="/images/icon-security.svg"
-            alt=""
+            alt="Icon security"
           />
 
           <h3 className="feature-title">Security you can trust</h3>
@@ -34,7 +34,7 @@ function Features() {
           <img
             className="feature-icon"
             src="/images/icon-collaboration.svg"
-            alt=""
+            alt="Icon collaboration"
           />
 
           <h3 className="feature-title">Real-time collaboration</h3>
@@ -47,7 +47,7 @@ function Features() {
           <img
             className="feature-icon"
             src="/images/icon-any-file.svg"
-            alt=""
+            alt="Icon any file"
           />
           <h3 className="feature-title">Store any type of file</h3>
           <p className="feature-text">
