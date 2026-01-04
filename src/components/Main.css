@@ -5,6 +5,7 @@
   bottom: 20px;
   right: 20px;
   padding: 1rem 1.4rem;
+  user-select: none;
   border-radius: 50%;
   z-index: 996;
 }
