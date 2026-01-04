@@ -2,7 +2,7 @@ import "./Testimonials.css"
 
 function Testimonials() {
   return (
-    <section className="testimonials">
+    <section id="team" className="testimonials">
       <div className="testimonials-grid">
         <article className="testimonial-card">
           <p className="testimonial-text">
