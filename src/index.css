@@ -50,7 +50,7 @@ body {
   font-family: var(--font-body);
   font-size: clamp(var(--font-size-body), 2vw, 1.8rem);
   font-weight: var(--font-weight-regular);
-  background-color: var(--navy-800);
+  background-color: var(--navy-850);
 }
 
 main {
