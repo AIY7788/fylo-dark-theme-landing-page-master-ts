@@ -1,5 +1,5 @@
 import "./Header.css";
-import Logo from "../assets/logo.svg?react";
+import Logo from "../assets/logo.svg";
 import { useState } from "react";
 
 function Header() {
@@ -15,7 +15,7 @@ function Header() {
 
   return (
     <header className="header">
-      <Logo />
+      <img className="logo" src={Logo} alt="Logo" />
 
       <div
         onClick={handleCloseSidebar}
