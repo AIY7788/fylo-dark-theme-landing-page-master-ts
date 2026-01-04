@@ -2,7 +2,7 @@
   text-align: center;
   padding: 4rem;
   background-color: var(--navy-800);
-  background-image: url("/images/bg-curvy-mobile.svg");
+  background-image: url("../assets/bg-curvy-mobile.svg");
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-size: 100%;
@@ -28,6 +28,6 @@
 
 @media (min-width: 64rem) {
   .hero-section {
-    background-image: url("/images/bg-curvy-desktop.svg");
+    background-image: url("../assets/bg-curvy-desktop.svg");
   }
 }
